@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 :root{
@@ -101,4 +102,19 @@ nav ul li a {
 .right-section img{
     width: 440px;
     height: 414px;
+}
+
+/* website section */
+
+.website-section{
+    width: 1110px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 30px 60px;
+    align-items: center;
+    border-width: 2px 0;
+    border-style: solid;
+    border-image-source: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1));
+    border-image-slice: 1;
 }
